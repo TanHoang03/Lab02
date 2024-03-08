@@ -34,7 +34,7 @@
                      <div class="row">
                         <div class="col-md-3">
                             Mật khẩu
-                        </div>
+                        </div> 
                         <div class="col-md-9 form-inline">
                             <asp:TextBox ID="txtMK" TextMode="Password" runat="server" CssClass="form-control"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="rfvMK" runat="server" ErrorMessage="Mật khẩu không được rỗng" ControlToValidate="txtMK" Text="(*)" CssClass="text-danger"></asp:RequiredFieldValidator>
